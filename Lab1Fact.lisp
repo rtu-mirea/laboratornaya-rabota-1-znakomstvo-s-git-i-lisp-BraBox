@@ -2,7 +2,7 @@
   (if (= n 0)
   1
   (* n (factorial (- n 1)))))
-;; вот комментарий
+;; тест
 (loop for i from 0 to 23
   do (format t "~D! = ~D~%" i (factorial i)))
 
